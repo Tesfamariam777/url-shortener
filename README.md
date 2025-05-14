@@ -50,8 +50,9 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/url-shortener.git
+git clone https://github.com/Tesfamariam777/url-shortener.git
 cd url-shortener
+```
 
 ### 2. Install dependencies
 ```bash
@@ -75,7 +76,7 @@ POST /api/shorten
 Create a new short URL.
 
 Request Body:
-``bash
+```bash
 {
   "longUrl": "https://example.com"
 }
@@ -91,10 +92,10 @@ GET /:shortCode
 Redirects the user to the original URL.
 
 Example:
-
+```bash
 GET http://localhost:5000/abc123
 → Redirects to https://example.com
-
+```
 ---
 
 ## 📌 Future Improvements
